@@ -1,0 +1,40 @@
+@charset "ISO-8859-1";
+.hero-image {
+	position: relative;
+	text-align: center;
+	font-family: sans-serif;
+}
+.center {
+	position: relative;
+	font-family: sans-serif;
+	color: black;
+	top: 50px;
+}
+.menu
+{
+	float: right;
+	list-style: none;
+	margin: 20px;
+}
+.menu li
+{
+	display: inline-block;
+margin: 10px 5px;
+}
+.menu li a
+{
+	text-decoration: none;
+	color: #0000ff;
+	padding: 5px 10px;
+	font-family: sans-serif;
+	letter-spacing: 2px;
+	border: 1px solid #00ff80;
+	
+}
+.menu li a:hover
+{
+	background: #c0c0c0;
+	transition: .4s;
+	color: #000;
+	
+}
